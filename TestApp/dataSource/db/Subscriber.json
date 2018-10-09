@@ -1,0 +1,101 @@
+{
+  "name" : "Subscriber",
+  "attributes" : [
+    {
+      "name" : "id",
+      "type" : "biginteger",
+      "persistent" : true,
+      "primaryKey" : true
+    },
+    {
+      "name" : "name",
+      "type" : "string",
+      "persistent" : true
+    },
+    {
+      "name" : "createdAt",
+      "type" : "biginteger",
+      "persistent" : true
+    },
+    {
+      "name" : "updatedAt",
+      "type" : "biginteger",
+      "persistent" : true
+    },
+    {
+      "name" : "orgName",
+      "type" : "string",
+      "persistent" : true
+    },
+    {
+      "name" : "deleted",
+      "type" : "boolean",
+      "persistent" : true
+    },
+    {
+      "name" : "deletedAt",
+      "type" : "biginteger",
+      "persistent" : true
+    },
+    {
+      "name" : "headshot",
+      "type" : "string",
+      "persistent" : true
+    },
+    {
+      "name" : "overallStatus",
+      "type" : "string",
+      "persistent" : true
+    },
+    {
+      "name" : "country",
+      "type" : "string",
+      "persistent" : true
+    },
+    {
+      "name" : "countryFlag",
+      "type" : "string",
+      "persistent" : true
+    },
+    {
+      "name" : "status",
+      "type" : "string",
+      "nameInDS" : "status_c",
+      "persistent" : true
+    },
+    {
+      "name" : "usage",
+      "type" : "string",
+      "nameInDS" : "usage_c",
+      "persistent" : true
+    },
+    {
+      "name" : "usageDuration",
+      "type" : "string",
+      "persistent" : true
+    },
+    {
+      "name" : "usageStatus",
+      "type" : "string",
+      "persistent" : true
+    },
+    {
+      "name" : "lastLogin",
+      "type" : "string",
+      "persistent" : true
+    },
+    {
+      "name" : "satisfaction",
+      "type" : "string",
+      "persistent" : true
+    },
+    {
+      "name" : "paymentMethod",
+      "type" : "string",
+      "persistent" : true
+    }
+  ],
+  "nameInDS" : "Subscriber_tbl",
+  "primaryKeyGenerator" : "serial",
+  "tableCreateable" : true
+}

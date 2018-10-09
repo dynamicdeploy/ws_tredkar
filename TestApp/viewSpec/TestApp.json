@@ -1,0 +1,191 @@
+{
+  "name" : "TestApp",
+  "type" : "page",
+  "controller" : "TestAppC",
+  "containerSpecs" : [
+    {
+      "name" : "headerRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "header_1",
+          "alignment" : "left",
+          "autoNav" : false,
+          "flexGrow" : "1",
+          "reference" : "header",
+          "tag" : "userDefined",
+          "trigger" : "_initial_",
+          "type" : "view"
+        }
+      ],
+      "designTimeHeight" : "49px",
+      "height" : "60px",
+      "tag" : "templateE",
+      "type" : "row"
+    },
+    {
+      "name" : "mainRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "leftColumn",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "SideBar_1",
+              "alignment" : "top",
+              "autoNav" : false,
+              "flexGrow" : "1",
+              "reference" : "SideBar",
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "view"
+            }
+          ],
+          "cssClass" : "left-column",
+          "designTimeWidth" : "250px",
+          "tag" : "templateE",
+          "type" : "column"
+        },
+        {
+          "name" : "titleAndContentArea",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "titleBar",
+              "autoNav" : false,
+              "css" : {
+                "designTimeHeight" : "30px",
+                "padding" : "5px 20px"
+              },
+              "tag" : "templateE",
+              "type" : "row"
+            },
+            {
+              "name" : "Row_6",
+              "alignment" : "left",
+              "autoNav" : false,
+              "tag" : "userDefined",
+              "trigger" : "_initial_/SideBar:charts",
+              "type" : "row"
+            },
+            {
+              "name" : "Row_7",
+              "alignment" : "left",
+              "autoNav" : false,
+              "tag" : "userDefined",
+              "trigger" : "_initial_/SideBar:charts",
+              "type" : "row"
+            },
+            {
+              "name" : "mainContentArea",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "column_4",
+                  "autoNav" : false,
+                  "childrenSpecs" : [
+                    {
+                      "name" : "Row_10",
+                      "autoNav" : false,
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:sales",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_11",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:sales",
+                      "type" : "row"
+                    }
+                  ],
+                  "flexGrow" : "1",
+                  "type" : "column"
+                },
+                {
+                  "name" : "column_3",
+                  "autoNav" : false,
+                  "childrenSpecs" : [
+                    {
+                      "name" : "Row_8",
+                      "autoNav" : false,
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:alerts",
+                      "type" : "row"
+                    }
+                  ],
+                  "flexGrow" : "1",
+                  "type" : "column"
+                },
+                {
+                  "name" : "column_1",
+                  "autoNav" : false,
+                  "childrenSpecs" : [
+                    {
+                      "name" : "Row_1",
+                      "autoNav" : false,
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/home_",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_2",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/home_",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_3",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/home_",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_4",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/home_",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_9",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/home_",
+                      "type" : "row"
+                    }
+                  ],
+                  "flexGrow" : "1",
+                  "type" : "column"
+                }
+              ],
+              "designTimeHeight" : "100px",
+              "flexGrow" : "1",
+              "main" : true,
+              "tag" : "templateE",
+              "type" : "row"
+            }
+          ],
+          "flexGrow" : "1",
+          "main" : true,
+          "minWidth" : "320px",
+          "tag" : "templateE",
+          "type" : "column"
+        }
+      ],
+      "cssClass" : "light-content-area main-row",
+      "flexGrow" : "1",
+      "main" : true,
+      "tag" : "templateE",
+      "type" : "row"
+    }
+  ]
+}

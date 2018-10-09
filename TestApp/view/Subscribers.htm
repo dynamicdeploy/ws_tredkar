@@ -1,0 +1,92 @@
+<div class="trillo-table table table-responsive table-hover table-outline content-cell" name="Subscribers" nm=
+"Subscribers">
+  <table data-container="" class="table">
+    <thead class="thead-default">
+      <tr>
+        <th class="text-center">
+          <i class="icon-people"></i>
+        </th>
+        <th>
+          User
+        </th>
+        <th class="text-center">
+          Country
+        </th>
+        <th>
+          Usage
+        </th>
+        <th class="text-center">
+          Payment Method
+        </th>
+        <th>
+          Activity
+        </th>
+        <th class="text-center">
+          Satisfaction
+        </th>
+        <th class="text-center">
+          <i class="icon-settings"></i>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-table-row="">
+        <td class="text-center">
+          <div class="avatar">
+            <img src="" nm="headshot" class="img-avatar" alt="{{{name}}}">
+            <span class="avatar-status badge-{{{overallStatus}}}"></span>
+          </div>
+        </td>
+        <td>
+          <div data-field="readonly" nm="name">
+          </div>
+          <div class="small text-muted">
+            <span data-field="readonly" nm="status"></span>
+            | Registered: 
+            <span data-field="readonly" nm="registeredAt"></span>
+          </div>
+        </td>
+        <td class="text-center">
+          <img src="" nm="countryFlag" alt="{{{country}}}" style="height:24px;">
+        </td>
+        <td>
+          <div class="clearfix">
+            <div class="float-left">
+              <strong data-field="readonly" nm="usage"></strong>
+            </div>
+            <div class="float-right">
+              <small class="text-muted" data-field="readonly" nm="usageDuration"></small>
+            </div>
+          </div>
+          <div class="progress progress-xs">
+            <div class="progress-bar bg-{{{usageStatus}}}" role="progressbar" style="width: {{{usage}}}" aria-valuenow=
+            "50" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </td>
+        <td class="text-center">
+          <i class="fa fa-cc-{{{paymentMethod}}}" style="font-size:24px"></i>
+        </td>
+        <td>
+          <div class="small text-muted">
+            Last login
+          </div>
+          <strong data-field="readonly" nm="lastLogin"></strong>
+        </td>
+        <td class="text-center">
+          <div class="gaugejs-wrap sparkline" style="width:34px;height:34px">
+            <canvas id="gauge-1" width="34" height="34">
+            </canvas>
+            <span class="value" data-field="readonly" nm="satisfaction"></span>
+          </div>
+        </td>
+        <td class="text-center">
+          <button type="button" class="btn btn-link text-muted">
+            <i class="icon-settings"></i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

@@ -1,0 +1,4 @@
+https://fonts.googleapis.com/css?family=Roboto
+https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/theme-default.css
+shared/static/css/page.css
+auth/static/css/auth.css

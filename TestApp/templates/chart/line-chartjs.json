@@ -1,0 +1,60 @@
+{
+  "type" : "line-chartjs",
+  "data" : {
+    "labels": ["M", "T", "W", "T", "F", "S", "S", 
+    	"M", "T", "W", "T", "F", "S", "S",
+    	"M", "T", "W", "T", "F", "S", "S"],
+    "datasets": [
+      {
+        "label": "Dataset1",
+        "backgroundColor": "transparent",
+        "borderColor": "#63c2de",
+        "pointHoverBackgroundColor": "#fff",
+        "borderWidth": 2
+      },
+      {
+        "label": "Dataset2",
+        "backgroundColor": "transparent",
+        "borderColor": "#4dbd74",
+        "pointHoverBackgroundColor": "#fff",
+        "borderWidth": 2
+      },
+      {
+        "label": "Dataset3",
+        "backgroundColor": "transparent",
+        "borderColor": "#f86c6b",
+        "pointHoverBackgroundColor": "#fff",
+        "borderWidth": 1,
+        "borderDash": [8, 5]
+      }
+    ]
+  },
+  "options" : {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "scales": {
+      "xAxes": [{
+        "gridLines": {
+          "drawOnChartArea": false
+        }
+      }],
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true,
+          "maxTicksLimit": 5
+        }
+      }]
+    },
+    "elements": {
+      "point": {
+        "radius": 0,
+        "hitRadius": 10,
+        "hoverRadius": 4,
+        "hoverBorderWidth": 3
+      }
+    },
+    "legend": {
+      "display": false
+    }
+  }
+}

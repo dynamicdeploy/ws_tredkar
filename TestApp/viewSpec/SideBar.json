@@ -1,0 +1,69 @@
+{
+  "name" : "SideBar",
+  "type" : "html",
+  "width" : "250px",
+  "minWidth" : "250px",
+  "actionSpecs" : [
+    {
+      "name" : "home_",
+      "type" : "view"
+    },
+    {
+      "name" : "charts",
+      "type" : "view"
+    },
+    {
+      "name" : "sales",
+      "type" : "view"
+    },
+    {
+      "name" : "revenue",
+      "type" : "notYet"
+    },
+    {
+      "name" : "users",
+      "type" : "view"
+    },
+    {
+      "name" : "logs",
+      "type" : "notYet"
+    },
+    {
+      "name" : "alerts",
+      "type" : "notYet"
+    },
+    {
+      "name" : "analytics",
+      "type" : "notYet"
+    },
+    {
+      "name" : "reports",
+      "type" : "notYet"
+    },
+    {
+      "name" : "ab-testing",
+      "type" : "notYet"
+    },
+    {
+      "name" : "recommendations",
+      "type" : "notYet"
+    },
+    {
+      "name" : "topology",
+      "type" : "notYet"
+    },
+    {
+      "name" : "calendar",
+      "type" : "notYet"
+    },
+    {
+      "name" : "wikipedia",
+      "type" : "link",
+      "url" : "https://www.wikipedia.org/"
+    },
+    {
+      "name" : "about",
+      "type" : "script"
+    }
+  ]
+}

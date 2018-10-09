@@ -1,0 +1,16 @@
+{
+  "name" : "tab1",
+  "type" : "tab",
+  "hierSpecs" : [
+    {
+      "name" : "Tab_1",
+      "displayName" : "Tab_1",
+      "type" : "tabSelector"
+    },
+    {
+      "name" : "Tab_2",
+      "displayName" : "Tab_2",
+      "type" : "tabSelector"
+    }
+  ]
+}

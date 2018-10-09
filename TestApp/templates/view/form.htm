@@ -1,0 +1,117 @@
+<div class="trillo-form" style="width:450px; padding: 20px;
+  border: 1px solid #eee; border-radius:5px">
+  <form data-container>
+    <div data-component="readonly" class="form-group">
+      <label data-label>Readonly</label>
+      <span data-field class="form-control">some readonly text</span>
+    </div>
+    <div data-component="text" class="form-group">
+      <label data-label>Text</label>
+      <input data-field type="text" class="form-control">
+    </div>
+
+    <div class="form-group" data-component="checkbox">
+      <div class="custom-control custom-checkbox">
+        <input data-field type="checkbox" class="custom-control-input" id="use-name">
+        <label data-label class="custom-control-label">Checkbox</label>
+      </div>
+    </div>
+    <div data-radios-container class="form-group" data-component="radio">
+      <div data-radio-container class="custom-control custom-radio">
+        <input data-field type="radio" id="use-name" name="use-name" class="custom-control-input">
+        <label data-label data-radio-label class="custom-control-label">Radio</label>
+      </div>
+    </div>
+    <div data-radios-container class="form-group" data-component="radio-inline">
+      <div data-radio-container class="custom-control custom-radio custom-control-inline">
+        <input data-field type="radio" id="use-name" name="use-name" class="custom-control-input">
+        <label data-label data-radio-label class="custom-control-label">Radio</label>
+      </div>
+    </div>
+    <div data-component="select" class="form-group">
+      <label data-label>Select</label>
+      <select data-field class="form-control custom-select">
+        <option>1</option>
+        <option>2</option>
+      </select>
+    </div>
+    <div data-component="multi-select" class="form-group">
+      <label data-label>Multi-select</label>
+      <select multiple data-field class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+    </div>
+    <div data-component="textarea" class="form-group">
+      <label data-label>Textarea</label>
+      <textarea data-field class="form-control" rows="2"></textarea>
+    </div>
+    <div data-component="number" class="form-group">
+      <label data-label>Number</label>
+      <input data-field type="number" class="form-control">
+    </div>
+    <div data-component="email" class="form-group">
+      <label data-label>Email</label>
+      <input data-field type="input" class="form-control"
+        data-validation-optional="true" data-validation="email">
+    </div>
+    <div data-component="password" class="form-group">
+      <label data-label>Password</label>
+      <input data-field type="password" class="form-control">
+    </div>
+    <div data-component="datetime" class="form-group">
+      <label data-label>Date Time</label>
+      <input data-field type="text" class="form-control">
+    </div>
+    <div data-component="datetime-local" class="form-group">
+      <label data-label>Date Time Local</label>
+      <input data-field type="text" class="form-control">
+    </div>
+    <div data-component="date" class="form-group">
+      <label data-label>Date</label>
+      <input data-field type="text" class="form-control flatpickr-input"
+      placeholder="Click to pick a date">
+    </div>
+    <div data-component="time" class="form-group">
+      <label data-label>Time</label>
+      <input data-field type="text" class="form-control flatpickr-input" placeholder="Click to pick a date">
+    </div>
+    <div data-component="month" class="form-group">
+      <label data-label>Month</label>
+      <input data-field type="text" dataFormat="F Y" class="form-control">
+    </div>
+    <div data-component="url" class="form-group">
+      <label data-label>URL</label>
+      <input data-field type="url" class="form-control">
+    </div>
+    <div data-component="tel" class="form-group">
+      <label data-label>Telephone</label>
+      <input data-field type="tel" class="form-control">
+    </div>
+    <div data-component="search" class="form-group">
+      <label data-label>Search</label>
+      <input data-field type="search" class="form-control">
+    </div>
+    <div data-component="range" class="form-group">
+      <label data-label>Example range</label>
+      <input data-field type="range" class="custom-range" min="0" max="5">
+    </div>
+    <div data-component="fileInput" class="form-group">
+      <div class="custom-file">
+        <input data-field type="file" class="custom-file-input" id="customFile">
+        <label data-label class="custom-file-label" for="customFile">Choose file</label>
+      </div>
+    </div>
+    <button data-component="button" type="button" class="btn btn-primary">Button</button>
+    <button data-component="submit" type="submit" class="btn btn-primary">Button</button>
+    <button data-component="reset" type="reset" class="btn btn-primary">Button</button>
+    <div data-container data-component="fieldsRow" data-hidden class="form-inline">
+    </div>
+    <label data-component="field-action" data-hidden class="trillo-field-action trillo-display-none">
+      <a href="#" data-action class="js-tool"><i class="trillo-arrow-right"></i></a>
+    </label>
+  </form>
+  <small class="form-control-feedback trillo-display-none js-field-error"></small>
+  <small class="form-text text-muted trillo-display-none js-field-message"></small>
+</div>

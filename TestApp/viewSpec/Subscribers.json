@@ -1,0 +1,22 @@
+{
+  "name" : "Subscribers",
+  "type" : "table",
+  "fieldSpecs" : [
+    {
+      "name" : "column_1",
+      "displayName" : "Column 1",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Column_2",
+      "displayName" : "Column 2",
+      "type" : "readonly"
+    },
+    {
+      "name" : "column_3",
+      "displayName" : "Column 2",
+      "type" : "readonly"
+    }
+  ],
+  "cssClass" : "content-cell"
+}

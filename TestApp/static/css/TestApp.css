@@ -1,0 +1,81 @@
+.title-and-content-area {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.card-actions .btn-group {
+  
+}
+
+.card-header .card-actions a, .card-header .card-actions button {
+  padding: 0.75rem 1rem;
+}
+
+.card-actions button.dropdown-toggle {
+  line-height: 1.5;
+  width: auto;
+  padding: 0.75rem;
+}
+
+.card-actions button.dropdown-toggle i {
+}
+ 
+.left-column, .right-column {
+  width: 250px;
+  transition: margin-left 0.25s, margin-right 0.25s, width 0.25s, min-width 0.25s, flex 0.25s, visibility 0.25s;
+  z-index: 2;
+}
+
+.sidebar, .aside-menu {
+  transition: margin-left 0.25s, margin-right 0.25s, width 0.25s, min-width 0.25s;
+}
+
+.aside-menu-hidden .right-column {
+  width: 0px;
+  min-width: 0px  !important;
+  visibility: hidden;
+}
+
+.sidebar-hidden .left-column {
+  width: 0px;
+  min-width: 0px !important;
+  visibility: hidden;
+}
+
+.sidebar-hidden .sidebar {
+  min-width: 0px !important;
+}
+
+.aside-menu-fixed .aside-menu {
+  right: auto;
+}
+
+@media (max-width: 991px) {
+  .left-column, .right-column {
+    width: 0px;
+    min-width: 0px  !important;
+    visibility: hidden;
+  }
+  
+  .sidebar {
+    min-width: 0px !important;
+  }
+  
+  .sidebar-mobile-show .left-column {
+    visibility: visible;
+    min-width: 250px !important;
+  }
+}
+
+.page-in-design-mode .app-header {
+  position: relative !important;
+}
+
+.content-cell {
+  margin: 15px;
+}
+
+.content-cell .card {
+  margin-bottom: 0px;
+}
+
+body { padding-right: 0 !important }

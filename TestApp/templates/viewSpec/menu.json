@@ -1,0 +1,22 @@
+{
+  "name" : "menu1",
+  "type" : "menu",
+  "hierSpecs" : [
+    {
+      "name" : "MenuItem_1",
+      "displayName" : "MenuItem_1",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "type" : "menuItem"
+    },
+    {
+      "name" : "MenuItem_2",
+      "displayName" : "MenuItem_2",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "type" : "menuItem"
+    }
+  ]
+}

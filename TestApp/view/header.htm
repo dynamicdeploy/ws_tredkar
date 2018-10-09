@@ -1,0 +1,43 @@
+<header class="app-header navbar">
+  <button class="navbar-toggler mobile-sidebar-toggler d-lg-none" nm="mobileSideBarToggler" type="button">
+    ☰
+  </button>
+  <a class="navbar-brand" href="/">
+  </a>
+  <ul class="nav navbar-nav d-md-down-none b-r-1">
+    <li class="nav-item">
+      <a class="nav-link navbar-toggler sidebar-toggler" nm="sideBarToggler" href="#">
+        ☰
+      </a>
+    </li>
+  </ul>
+  <form class="form-inline float-left b-r-1 px-4 d-md-down-none">
+    <i class="fa fa-search"></i>
+    <input class="form-control" type="text" placeholder="Search...">
+  </form>
+  <ul class="nav navbar-nav ml-auto">
+    <li class="nav-item dropdown d-md-down-none">
+      <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+        <div class="dropdown-header text-center">
+          <strong>You have 5 pending tasks</strong>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown js-menu">
+      <a class="nav-link nav-pill avatar" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        <img src="static/img/6.png" class="img-avatar" alt="admin@bootstrapmaster.com">
+        <span class="badge badge-pill badge-danger">9</span>
+      </a>
+      <div class="dropdown-menu dropdown-menu-right">
+        <a class="dropdown-item" href="#" nm="myProfile">
+          <i class="fa fa-user"></i>
+          Profile
+        </a>
+        <a class="dropdown-item" nm="_logout" href="/_logout">
+          <i class="fa fa-lock"></i>
+          Logout
+        </a>
+      </div>
+    </li>
+  </ul>
+</header>
